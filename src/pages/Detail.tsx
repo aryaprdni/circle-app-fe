@@ -80,7 +80,7 @@ const Detail = () => {
             <Box bgColor="#1d1d1d" color="white" borderY={"1px solid grey"} m="0 auto" p="10px" w="100%" key={index}>
               <Flex mb="15px" ml="6%">
                 <Box mr="18px">
-                  <Avatar src={replies?.user?.profile_picture } borderRadius="full" boxSize="40px" objectFit="cover" />
+                  <Avatar src={replies?.user?.profile_picture} borderRadius="full" boxSize="40px" objectFit="cover" />
                 </Box>
 
                 <Box>
