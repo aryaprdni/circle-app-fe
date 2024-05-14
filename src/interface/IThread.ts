@@ -1,7 +1,7 @@
 export interface ThreadInterface {
   id: number;
   user: {
-    photo_profile: string;
+    profile_picture: string;
     full_name: string;
     username: string;
   };
@@ -25,9 +25,10 @@ export type IReplyThread = {
 };
 
 export type IReplies = {
+  data: IReplies[];
   id: number;
   user: {
-    photo_profile: string;
+    profile_picture: string;
     full_name: string;
     username: string;
   };
